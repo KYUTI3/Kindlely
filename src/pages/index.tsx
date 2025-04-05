@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Hero from "../../components/Hero";
 import { Geist, Geist_Mono } from "next/font/google";
 
 const geistSans = Geist({
@@ -25,7 +26,7 @@ export default function Home() {
 
      
       <main className="flex-grow flex items-center justify-center">
-        <h2 className="text-3xl font-bold">Welcome to Kindlely!</h2>
+        <h2 className="text-3xl font-bold"> <Hero/> </h2>
       </main>
 
       
