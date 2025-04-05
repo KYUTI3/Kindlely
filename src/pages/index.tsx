@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 
 export default function Home() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-linear-to-r from-cyan-500 to-blue-500">
       <nav className="w-full py-4 px-8 bg-gray-100 dark:bg-gray-900 shadow-md flex justify-between items-center">
         <h1 className="text-xl font-semibold">Kindlely</h1>
         <ul className="flex gap-6 text-sm font-medium">
@@ -25,12 +25,12 @@ export default function Home() {
 
      
       <main className="flex-grow flex items-center justify-center">
-        <h2 className="text-3xl font-bold">Welcome to Kindlely</h2>
+        <h2 className="text-3xl font-bold">Welcome to Kindlely!</h2>
       </main>
 
       
       <footer className="w-full py-4 px-8 bg-gray-100 dark:bg-gray-900 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} Kindlely. All rights reserved.
+        © {new Date().getFullYear()} Kindlely. No rights reserved XD
       </footer>
     </div>
   );
